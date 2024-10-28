@@ -1,0 +1,21 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+real cC, cF, pD, iD, iF, resultado;
+pD = 1.28;
+iF = 1.45;
+
+	// Instruções
+	escreval("Insira o valor de tabela do veículo em Reais");
+	leia (cF);
+	resultado = cF*iF;
+	iD = pD*(resultado); 
+	cC = cF+iD;
+	escreval("O custo final do veiúculo é: ", "R$",cC);
+fimPrincipal

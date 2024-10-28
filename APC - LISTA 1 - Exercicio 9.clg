@@ -1,0 +1,25 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  
+//  Entrada : total vendido por um funcionário
+//  Saída   : Comissão e salário bruto
+
+
+principal
+	// Declarações
+ 	real total_vendido, comissao, salario_bruto, salario_base;
+	 salario_base = 1200.00;
+	 comissao = 10/100;
+
+	escreval("Digite o total de vendas no mês: ");
+	leia (total_vendido);
+	escreval("O total de vendas no mês é: ", total_vendido);
+	escreval("O salário base é: ", salario_base);
+	escreval("A comissão é: ", comissao*total_vendido);
+	escreval("O salário bruto é: ", salario_base + (comissao*total_vendido));
+ 	
+ 
+
+	// Instruções
+
+fimPrincipal

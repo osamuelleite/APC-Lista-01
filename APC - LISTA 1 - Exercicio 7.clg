@@ -1,0 +1,26 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento simples após 3 meses. Considere fixo o juro da poupança em 0,70% a. m
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	real deposito, rendimento, juros, J, FV;
+	inteiro prazo;
+
+	// Instruções
+	escreval("Essa é uma calculadora de juros simples!");
+	escreval("Digite o valor a ser depositado");
+	leia(deposito);
+	escreval ("Você depositou R$ ", deposito:2, "na conta");
+	escreval("Insira o prazo do investimento");
+	leia (prazo);
+	escreval(" O juros aplicados são de 0,70% a.m.");
+	J = deposito*(0.70/100)*prazo;
+	escreval("Seu investimento rendeu ", J:2 );
+	escreval("Seu saldo final é: ", deposito+J);
+	
+
+fimPrincipal

@@ -1,0 +1,34 @@
+algoritmo semNome;
+// Síntese calculadora com opção de operação
+//  Objetivo:  demosntrar opção de escolhas do usuário e realizar operações
+//  Entrada : núeros e opções de operação
+//  Saída   : resultado esperado da operação
+
+
+principal
+	inteiro num1, num2;
+	real sum, sub, mult, divi;
+	caracter operacao;
+
+escreva ("Digite o primeiro número");
+	leia (num1);
+escreva ("Digite o segundo número");
+	leia (num2);
+	
+	sum = (num1 + num2);
+	sub = (num1 - num2);
+	mult = (num1 * num2);
+	divi = (num1 / num2);
+
+escreva("Soma: ");
+escreval (sum);
+escreva("subtração: ");
+escreval (sub);
+escreva("multiplicação: ");
+escreval (mult);
+escreva("divisão: ");
+escreval (divi);
+
+
+fimPrincipal
+	

@@ -1,0 +1,29 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	inteiro a, b, c, verificador;
+	
+
+	// Instruções
+	escreval ("Escreva o valor de A: ");
+	leia (a);
+	escreval ("Escreva o valor de B: ");
+	leia(b);
+	escreva("pressione a tecla 1 para inverter valores");
+	leia (verificador);
+	se (verificador == 1) entao
+		c = a;
+		a = b;
+		b = c;
+		escreval("o novo valor de A é: ", a);
+		escreval("o novo valor de B é: ", b);
+	fimSe
+	
+
+fimPrincipal

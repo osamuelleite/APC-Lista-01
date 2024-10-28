@@ -1,0 +1,19 @@
+algoritmo semNome;
+// Síntese: 
+//  Objetivo:  6) Ler uma temperatura em graus Celsius e apresenta-la convertida em graus Fahrenheit.
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	real temp_C, temp_F;
+
+
+	// Instruções
+	escreval ("escreva a temperatura em Celsius a ser convertida: ");
+	leia (temp_C);
+	temp_F = ((9*temp_C+160)/5);
+	escreval(temp_C, "ºC equivale a: ", temp_F, "ºF");
+
+fimPrincipal

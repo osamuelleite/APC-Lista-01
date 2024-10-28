@@ -1,0 +1,32 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	texto aluno, prompt_aluno, prompt_nota1, prompt_nota2, prompt_nota3;
+	caracter prompt_resultado;
+	real nota1, nota2, nota3, resultado;
+
+	prompt_aluno = ("Digite  o nome do aluno:  ");
+	prompt_nota1 = ("Digite  a primeira nota:  ");
+	prompt_nota2 = ("Digite  a segunda nota:  ");
+	prompt_nota3 = ("Digite  a terceira nota:  ");
+	
+	
+
+	// Instruções
+	escreval(prompt_aluno);
+	leia (aluno);
+	escreval (prompt_nota1);
+	leia (nota1);
+	escreval (prompt_nota2);
+	leia (nota2);
+	escreval (prompt_nota3);
+	leia (nota3);
+	resultado = ((nota1+nota2+nota3)/3);
+	escreva("A nota final de ", aluno,  " é: ", resultado);
+fimPrincipal

@@ -1,0 +1,23 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	real valor_produto;
+	real valor_venda;
+	real desconto;
+
+	desconto = 1-15/100;
+	
+	// Instruções
+	escreval ("Digite o preço do produto: ");
+	leia (valor_produto);
+	valor_venda = valor_produto*desconto;
+	escreval ("O desconto aplicado é de 15%");
+	escreval ("O valor final do produto é: ", valor_venda);
+	
+fimPrincipal

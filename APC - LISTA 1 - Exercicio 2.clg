@@ -1,0 +1,26 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	inteiro prestacoes;
+	real preco;
+	real resultado;
+
+	prestacoes = 5;
+	
+	
+
+	escreva ("escreva o preço do produto");
+	leia (preco);
+	resultado = preco/prestacoes; 
+	escreval (preco);
+	escreval(resultado);
+
+	// Instruções
+
+fimPrincipal

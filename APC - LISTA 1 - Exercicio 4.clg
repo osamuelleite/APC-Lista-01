@@ -1,0 +1,22 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	real consumo_medio, distancia, autonomia, combustivel_gasto, volume_tanque;
+
+	// Instruções
+	escreva("Digite o volume máximo do tanque do carro em Litros  ");
+	leia (volume_tanque);
+	escreval("seu tanque é de ", volume_tanque, "litros  ");
+	escreva ("Digite a distância percorrida  ");
+	leia(distancia);
+	escreva ("sua consumo é:  ", distancia/volume_tanque , "Km/L");
+	
+	
+
+fimPrincipal
